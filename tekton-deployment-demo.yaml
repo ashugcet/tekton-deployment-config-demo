@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
   - name: nginx-app-server-container
-    image: ashu0207/ashu-demo:tektondemo3.0
+    image: ${image-tag}
   imagePullSecrets:
   - name: regcred2
