@@ -1,1 +1,10 @@
-ashu0207/ashu-demo:tektondemo3.0
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-app-server
+spec:
+  containers:
+  - name: nginx-app-server-container
+    image: ashu0207/ashu-demo:tektondemo3.0
+  imagePullSecrets:
+  - name: regcred2
